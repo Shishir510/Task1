@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#bg {
+    height: 89vw;
+    width: 100%;
+}
+
+.Show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 4vw;
+    background-color: black;
+    font-size: 3vw;
+}
+
+#form {
+    background-color: #fefefe5c;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vw;
+    background-color: #856c6454;
+
+}
+
+.formitem {
+    height: 3vw;
+    width: 40vw;
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 0.5vw 0;
+}
+
+.formitem input {
+    border-radius: 1vw;
+    padding: 0 0.9vw;
+    height: 2vw;
+    width: 25vw;
+}
+
+#AddBtn {
+    height: 3vw;
+    width: 13vw;
+    margin: 1vw;
+    border-radius: 1vw;
+    color: black
+}
+
+#AddBtn:hover {
+    cursor: pointer;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    border-radius: 1vw;
+    margin: 1vw 4.121vw;
+    background-color: #492e2d6e;
+    color: white;
+}
+
+.item p {
+    margin: 0.2vw;
+    padding: 0.8vw 0.4vw;
+}
+
+.item textarea {
+    margin: 0.2vw;
+    padding: 0.8vw 0.4vw;
+}
+
+#itemBox {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.delBtn,
+.read {
+    width: 9vw;
+    height: 2vw;
+    border-radius: 1vw;
+    border: 2px solid black;
+    background-color: #f1f7c2;
+    margin: 1vw auto;
+}
+
+.readItem {
+    background-color: green;
+    color: white;
+    width: 9vw;
+    height: 2vw;
+    border-radius: 1vw;
+    border: 2px solid black;
+    margin: 1vw auto;
+}
